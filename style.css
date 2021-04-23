@@ -91,26 +91,6 @@ section .container .box {
 section .container .box:last-child {
   border-right: none;
 }
-/* 
-section .container .close {
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 60px;
-  background: #fff;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  z-index: 1000;
-}
-section .container .close img {
-  filter: invert(1);
-  transform: scale(0.6);
-} */
 section .container .box .imgBx {
   position: absolute;
   top: 0;
@@ -171,7 +151,29 @@ section .container .box .imgBx.active .contentBx {
   opacity: 1;
   filter: grayscale(0);
 }
-
+/* section .container .btnBx {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+section .container .btnBx div {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+} */
 .footer {
   position: absolute;
   bottom: 0;
